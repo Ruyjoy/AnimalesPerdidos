@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Animalicis</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Animalicis</string>
+    <string name="nav_header_subtitle">Desarrollado por ½Byte</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Modificar usuario</string>
+
+    <string name="menu_home">Lista de Mascotas</string>
+    <string name="menu_gallery">Refugios</string>
+    <string name="menu_slideshow">Ubicación de Refugios</string>
+
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="nombreusuario">Nombre de usuario</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Mail">Mail</string>
+
+    <string name="gestionar_imagen">GESTIONAR IMAGEN</string>
+    <string name="selecciona_imagen">Selecciona Imagen</string>
+
+    <string name="titulo_formulario_mascota">Gestion de Publicacion</string>
+    <string name="titulo_formulario_usuario">Gestion de Usuario</string>
+    <string name="elegir_foto">Seleccione una Foto</string>
+    <string name="new_password">Nueva Contraseña</string>
+    <string name="nombre_dummy">Codelia</string>
+    <string name="ubicacion_dummy">Zona</string>
+    <string name="descripcion_dummy">Se llama Cheshire</string>
+
+    <string name="hint_tipo_mascota">Tipo de mascota</string>
+    <string name="hint_descripcion">Decripción</string>
+    <string name="hint_departamento">Departamento/Barrio</string>
+
+    <string name="button_login">Inicio de Sesion</string>
+    <string name="button_registro">Registrarse</string>
+    <string name="button_modificar">Modificar</string>
+    <string name="button_eliminar">Eliminar</string>
+    <string name="button_aceptar">Aceptar</string>
+    <string name="button_cancelar">Cancelar</string>
+    <string name="button_foto">Foto</string>
+
+
+</resources>

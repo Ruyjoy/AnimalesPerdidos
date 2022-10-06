@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardviewmascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="@dimen/cv_corrner_radius"
+    app:cardElevation="@dimen/cv_elevation"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/fichaTotal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/ficha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/background_ficha_animal"
+            android:padding="6dp"
+            android:visibility="visible">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iconoImagen"
+                android:layout_width="@dimen/icon_ficha_width"
+                android:layout_height="@dimen/icon_ficha_height"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/icon_ficha_padding_L"
+                android:paddingRight="@dimen/icon_ficha_padding_R"
+                android:src="@drawable/logo"
+                />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/iconoImagen"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/iconoImagen">
+                <TextView
+                    android:id="@+id/nametext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/nombre_dummy"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/size_titulo"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/barrio_zona"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/ubicacion_dummy"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/size_ubicacion"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#0B0A0A"
+            android:text="TextView" />
+
+
+
+        <LinearLayout
+            android:id="@+id/detalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/background_ficha_animal"
+            android:visibility="gone">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotoCompleta"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/CvDescipcion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/descripcion_dummy"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/size_descripcion"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
